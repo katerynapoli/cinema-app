@@ -2,25 +2,26 @@
 
 ### Project description:
 ```
-A simple web-application that supports registration, authentication and other CRUD operations.
+This is a simple simulator of a cinema service for ticket reservation that supports registration, authentication and CRUD operations.
 ```
 
 ## 🎯 Features:
 
-- registration and authentication as an admin or a user
+- register or login as a user
+- login as an admin
 
-As ```admin``` you can:
-- add / get all cinema halls
-- add / get all movies
-- add / update / delete / find an available movie sessions
-- find a user by email
-
-As ```user``` you can:
+As a ```user``` you can:
 - get all cinema halls
 - get all movies
 - find an available movie sessions
 - complete an order / get an order history
 - add a movie session to your shopping cart / get your shopping cart
+
+As an ```admin``` you can:
+- add / get all cinema halls
+- add / get all movies
+- add / update / delete / find an available movie sessions
+- find a user by email
 
 ## 💿 Required Software:
 1. [JDK 19](https://jdk.java.net/19/)
